@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/textViewEnterRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your desired roll to Win!"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextUserRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a number between 1 and 6"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonStartRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DiceRoller" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/black</item> <!-- Change the status bar color -->
+        <item name="android:windowLightStatusBar">true</item> <!-- Use this to make the icons dark for light backgrounds -->
+    </style>
+
+    <style name="Theme.DiceRoller" parent="Base.Theme.DiceRoller" />
+</resources>
